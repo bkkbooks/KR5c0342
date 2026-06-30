@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0342/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0342/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 通玄祕術
+  date: '2015-08-29 00:56:19.336808'
+  source:
+    repository: kanripo
+    path: KR5c0342
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0342_000-ZTDZ.yaml, hash: 'sha256:18035d8e61dd4519f53465e726520c83d8a862fcadda24a1bba8ef2b586ca2c5'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0342_000-ZTDZ.markers.yaml, hash: 'sha256:75a465c4327b801e7e579b5320236e29327f3f21150f71073115857ff33ee92a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0342_SJB_000-190356c
+    span:
+    - body
+    - 0
+    - 5929
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ec2537c109e5fef41da690d4402a3047aeba734de0b531a4d388f2875c6b8658
